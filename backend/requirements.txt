@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+transformers
+torch
+python-multipart
+easyocr
+pytesseract
+groq
+requests
+python-dotenv
+pytesseract 
+pillow
