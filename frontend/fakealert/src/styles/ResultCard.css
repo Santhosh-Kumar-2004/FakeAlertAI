@@ -1,0 +1,139 @@
+/* Root Styling (Light / Dark) */
+body {
+  background-color: #121212;
+  color: #f0f0f0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.light {
+  background-color: #ffffff;
+  color: #222222;
+}
+
+/* Result Card */
+.result-card {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+body.light .result-card {
+  background-color: #ffffff;
+  color: #222222;
+}
+
+/* Animation */
+.fade-in {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Copy Button */
+.copy-btn {
+  background: transparent;
+  border: none;
+  font-size: 1rem;
+  margin-left: 8px;
+  cursor: pointer;
+  color: inherit;
+}
+
+.copy-btn:hover {
+  color: #4caf50;
+}
+
+/* Feedback Section */
+.feedback {
+  margin-top: 1.5rem;
+}
+
+.feedback p {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.feedback-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 1.1rem;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: #2c2c2c;
+  color: #f0f0f0;
+  transition: all 0.2s ease;
+}
+
+body.light .feedback-btn {
+  background-color: #f0f0f0;
+  color: #222;
+}
+
+.feedback-btn:hover {
+  background-color: #444;
+}
+
+body.light .feedback-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.feedback-btn.active {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.thank-you-msg {
+  margin-top: 0.5rem;
+  color: #4caf50;
+  font-weight: 500;
+}
+
+/* Sprinkle Animation */
+.sprinkle {
+  position: absolute;
+  top: -20px;
+  right: -10px;
+  animation: sprinkleFall 1s ease-out forwards;
+  display: flex;
+  gap: 4px;
+}
+
+.sprinkle span {
+  animation: floatUp 0.8s ease-in-out infinite alternate;
+  font-size: 1.5rem;
+}
+
+@keyframes sprinkleFall {
+  0% {
+    transform: translateY(-10px) scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-60px) scale(1.5);
+    opacity: 0;
+  }
+}
+
+@keyframes floatUp {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-5px);
+  }
+}
