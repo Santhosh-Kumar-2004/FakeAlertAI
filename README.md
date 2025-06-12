@@ -27,6 +27,15 @@ A multilingual AI-powered web app that detects scams and fake news from text, im
 - Image OCR: pytesseract
 - Translation: googletrans
 
+## 🌟 Why FakeAlertAI?
+
+- Empowers low-literacy users by translating explanations in Arabic and French
+- Shields the elderly and rural users from common scam messages
+- Educates users about types of scams and prevention methods
+- Fast, AI-powered detection — no need for local compute power
+- Mobile-friendly and accessible via browser or phone
+
+
 ## 🚀 Getting Started
 
 1. Clone the repo  
