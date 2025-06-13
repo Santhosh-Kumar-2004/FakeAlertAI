@@ -8,7 +8,7 @@ A multilingual AI-powered web app that detects scams and fake news from text, im
 ## 🎯 Inspiration & Focus
 - The peoples in africa are really hard working humans, while they earn less money for the hard work. So I wish they shouldn't get scammed by the internat anymore, their hardwork shouldn't  get wasted becauese of the Technology.
 
-- So I made a app which helps the people to get aware of the scams and it lets you to prevent from get scammed again. Just provide the scam message or image. My app is there to help you before you lose your money.
+- So I made an app which helps the people to get aware of the scams and it lets you to prevent from get scammed again. Just provide the scam message or image. My app is there to help you before you lose your money.
 
 ## 🌍 Features
 
